@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/clicker-game",
+  "homepage": "https://FinalAlert.github.io/clicker-game",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
