@@ -1,0 +1,24 @@
+.clicker {
+  text-align: center;
+  padding: 20px;
+
+  h1, h2 {
+    color: inherit;
+  }
+
+  .clickButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s;
+    margin-top: 10px;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

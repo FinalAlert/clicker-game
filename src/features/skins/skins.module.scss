@@ -1,0 +1,43 @@
+.skins {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  .skinList {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .skinItem {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    width: 120px;
+
+    &.active {
+      border-color: #007bff;
+      background-color: #e7f1ff;
+    }
+
+    button {
+      margin-top: 5px;
+      padding: 5px 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+
+      &:disabled {
+        background-color: #6c757d;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

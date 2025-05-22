@@ -1,0 +1,21 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  &.default {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  &.dark {
+    background-color: #222;
+    color: #fff;
+  }
+
+  &.blue {
+    background-color: #e6f2ff;
+    color: #003366;
+  }
+}
