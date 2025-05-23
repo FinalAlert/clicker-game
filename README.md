@@ -1,12 +1,33 @@
-# React + Vite
+# Clicker Game на React + Vite
+## Опис проекту
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Гра-клікер з системою прокачування, бонусами та престижем. Реалізовано всі обов'язкові функціональні модулі згідно з технічним завданням.
 
-Currently, two official plugins are available:
+## Функціональність
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Клік-механіка
+- Основні кліки з множниками  
+- Комбінації кліків  
 
-## Expanding the ESLint configuration
+Система апгрейдів (5 типів)**  
+1. Підвищення сили кліку  
+2. Автоклікери  
+3. Пасивний дохід  
+4. Множник комбо  
+5. Глобальний множник доходу  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Бонуси та антибонуси
+- Випадкові бонуси (кейси)    
+
+Система престижу
+- Скидання прогресу за Duiktcoins  
+- Постійні множники  
+
+Скіни інтерфейсу
+- 3 різні теми  
+- Збереження вибору  
+
+Технічні особливості
+- Збереження прогресу в IndexedDB  
+- Оптимізовані анімації  
+- Адаптивний дизайн  
